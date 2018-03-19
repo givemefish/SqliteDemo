@@ -1,0 +1,103 @@
+2018-03-16 15:48:39.4176|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:59309/   
+2018-03-16 15:48:39.7076|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SqliteDemo.Controllers.HomeController.Index (SqliteApi) with arguments ((null)) - ModelState is Valid 
+2018-03-16 15:48:53.7080|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:59309/   
+2018-03-16 15:48:53.9480|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SqliteApi.Controllers.HomeController.Index (SqliteApi) with arguments ((null)) - ModelState is Valid 
+2018-03-16 15:48:55.9672|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2018-03-16 15:48:56.0252|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SqliteApi.Controllers.HomeController.Index (SqliteApi) in 2114.0431ms 
+2018-03-16 15:48:56.0422|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2356.1909ms 200 text/html; charset=utf-8 
+2018-03-16 15:49:17.0553|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:59309/api/users/2 application/json 34 
+2018-03-16 15:49:17.3704|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SqliteDemo.Controllers.UsersController.Update (SqliteApi) with arguments (2, SqliteApi.ViewModels.AppUser) - ModelState is Valid 
+2018-03-16 15:49:17.4904|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None 
+2018-03-16 15:49:17.7594|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2018-03-16 15:49:17.7734|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "o"."Id", "o"."UserName"
+FROM "AppUsers" AS "o"
+WHERE "o"."Id" = @__id_0
+LIMIT 2 
+2018-03-16 15:49:17.9484|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SqliteDemo.Controllers.UsersController.Update (SqliteApi) in 840.7456ms 
+2018-03-16 15:49:18.0414|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request test2
+2018-03-16 15:49:18.2015|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1146.0645ms 500 text/html; charset=utf-8 
+2018-03-16 15:50:00.1677|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:59309/api/users/2 application/json 34 
+2018-03-16 15:50:00.2007|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SqliteDemo.Controllers.UsersController.Update (SqliteApi) with arguments (2, SqliteApi.ViewModels.AppUser) - ModelState is Valid 
+2018-03-16 15:50:00.2307|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None 
+2018-03-16 15:50:00.2427|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2018-03-16 15:50:00.2427|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "o"."Id", "o"."UserName"
+FROM "AppUsers" AS "o"
+WHERE "o"."Id" = @__id_0
+LIMIT 2 
+2018-03-16 15:50:00.4227|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SqliteDemo.Controllers.UsersController.Update (SqliteApi) in 248.3788ms 
+2018-03-16 15:50:00.5007|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request test2
+2018-03-16 15:50:00.5377|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 370.6594ms 500 text/html; charset=utf-8 
+2018-03-16 15:50:04.9241|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:59309/api/users/2 application/json 34 
+2018-03-16 15:50:04.9451|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SqliteDemo.Controllers.UsersController.Update (SqliteApi) with arguments (2, SqliteApi.ViewModels.AppUser) - ModelState is Valid 
+2018-03-16 15:50:04.9531|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None 
+2018-03-16 15:50:04.9531|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2018-03-16 15:50:04.9671|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "o"."Id", "o"."UserName"
+FROM "AppUsers" AS "o"
+WHERE "o"."Id" = @__id_0
+LIMIT 2 
+2018-03-16 15:50:05.1472|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SqliteDemo.Controllers.UsersController.Update (SqliteApi) in 215.7718ms 
+2018-03-16 15:50:05.2172|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request test2
+2018-03-16 15:50:05.2542|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 330.2843ms 500 text/html; charset=utf-8 
+2018-03-16 15:50:12.2139|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:59309/api/users/2 application/json 34 
+2018-03-16 15:50:12.2329|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SqliteDemo.Controllers.UsersController.Update (SqliteApi) with arguments (2, SqliteApi.ViewModels.AppUser) - ModelState is Valid 
+2018-03-16 15:50:12.2399|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None 
+2018-03-16 15:50:12.2399|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2018-03-16 15:50:12.2549|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "o"."Id", "o"."UserName"
+FROM "AppUsers" AS "o"
+WHERE "o"."Id" = @__id_0
+LIMIT 2 
+2018-03-16 15:50:12.4189|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SqliteDemo.Controllers.UsersController.Update (SqliteApi) in 198.0202ms 
+2018-03-16 15:50:12.5039|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request test2
+2018-03-16 15:50:12.5479|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 329.5671ms 500 text/html; charset=utf-8 
+2018-03-16 15:50:16.9403|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:59309/api/users/2 application/json 34 
+2018-03-16 15:50:16.9613|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SqliteDemo.Controllers.UsersController.Update (SqliteApi) with arguments (2, SqliteApi.ViewModels.AppUser) - ModelState is Valid 
+2018-03-16 15:50:16.9613|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None 
+2018-03-16 15:50:16.9783|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2018-03-16 15:50:16.9783|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "o"."Id", "o"."UserName"
+FROM "AppUsers" AS "o"
+WHERE "o"."Id" = @__id_0
+LIMIT 2 
+2018-03-16 15:50:17.1484|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SqliteDemo.Controllers.UsersController.Update (SqliteApi) in 201.1666ms 
+2018-03-16 15:50:17.2214|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request test2
+2018-03-16 15:50:17.2664|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 319.7644ms 500 text/html; charset=utf-8 
+2018-03-16 15:50:55.8082|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:59309/   
+2018-03-16 15:50:56.0472|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SqliteApi.Controllers.HomeController.Index (SqliteApi) with arguments ((null)) - ModelState is Valid 
+2018-03-16 15:50:58.0374|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2018-03-16 15:50:58.0935|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SqliteApi.Controllers.HomeController.Index (SqliteApi) in 2084.1497ms 
+2018-03-16 15:50:58.1065|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2317.8615ms 200 text/html; charset=utf-8 
+2018-03-16 15:50:59.8116|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:59309/api/users/2 application/json 34 
+2018-03-16 15:51:00.0877|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SqliteDemo.Controllers.UsersController.Update (SqliteApi) with arguments (2, SqliteApi.ViewModels.AppUser) - ModelState is Valid 
+2018-03-16 15:51:00.1847|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None 
+2018-03-16 15:51:00.4057|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2018-03-16 15:51:00.4187|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "o"."Id", "o"."UserName"
+FROM "AppUsers" AS "o"
+WHERE "o"."Id" = @__id_0
+LIMIT 2 
+2018-03-16 15:51:00.5917|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SqliteDemo.Controllers.UsersController.Update (SqliteApi) in 744.63ms 
+2018-03-16 15:51:00.6797|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred: test2 test2
+2018-03-16 15:51:06.2873|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6471.4342ms 500 application/json 
+2018-03-16 15:51:39.3616|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:59309/api/users/2 application/json 34 
+2018-03-16 15:51:39.3826|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method SqliteDemo.Controllers.UsersController.Update (SqliteApi) with arguments (2, SqliteApi.ViewModels.AppUser) - ModelState is Valid 
+2018-03-16 15:51:39.4166|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.2-rtm-10011 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None 
+2018-03-16 15:51:39.4166|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2018-03-16 15:51:39.4356|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "o"."Id", "o"."UserName"
+FROM "AppUsers" AS "o"
+WHERE "o"."Id" = @__id_0
+LIMIT 2 
+2018-03-16 15:51:39.5926|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action SqliteDemo.Controllers.UsersController.Update (SqliteApi) in 223.9428ms 
+2018-03-16 15:51:39.6666|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred: test2 test2
+2018-03-16 15:51:42.8219|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3452.6751ms 500 application/json 

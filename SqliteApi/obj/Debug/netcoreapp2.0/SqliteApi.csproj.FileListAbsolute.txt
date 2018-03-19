@@ -1,0 +1,11 @@
+E:\Labs\NetCore\Database\SqliteDemo\SqliteApi\obj\Debug\netcoreapp2.0\SqliteApi.csproj.CoreCompileInputs.cache
+E:\Labs\NetCore\Database\SqliteDemo\SqliteApi\obj\Debug\netcoreapp2.0\SqliteApi.AssemblyInfoInputs.cache
+E:\Labs\NetCore\Database\SqliteDemo\SqliteApi\obj\Debug\netcoreapp2.0\SqliteApi.AssemblyInfo.cs
+E:\Labs\NetCore\Database\SqliteDemo\SqliteApi\bin\Debug\netcoreapp2.0\App_Data\db.sqlite
+E:\Labs\NetCore\Database\SqliteDemo\SqliteApi\bin\Debug\netcoreapp2.0\SqliteApi.deps.json
+E:\Labs\NetCore\Database\SqliteDemo\SqliteApi\bin\Debug\netcoreapp2.0\SqliteApi.runtimeconfig.json
+E:\Labs\NetCore\Database\SqliteDemo\SqliteApi\bin\Debug\netcoreapp2.0\SqliteApi.runtimeconfig.dev.json
+E:\Labs\NetCore\Database\SqliteDemo\SqliteApi\bin\Debug\netcoreapp2.0\SqliteApi.dll
+E:\Labs\NetCore\Database\SqliteDemo\SqliteApi\bin\Debug\netcoreapp2.0\SqliteApi.pdb
+E:\Labs\NetCore\Database\SqliteDemo\SqliteApi\obj\Debug\netcoreapp2.0\SqliteApi.dll
+E:\Labs\NetCore\Database\SqliteDemo\SqliteApi\obj\Debug\netcoreapp2.0\SqliteApi.pdb

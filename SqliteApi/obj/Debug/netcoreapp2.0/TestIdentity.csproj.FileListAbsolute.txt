@@ -1,0 +1,11 @@
+E:\Labs\NetCore\Authentication\TestIdentity\TestIdentity\bin\Debug\netcoreapp2.0\TestIdentity.deps.json
+E:\Labs\NetCore\Authentication\TestIdentity\TestIdentity\bin\Debug\netcoreapp2.0\TestIdentity.runtimeconfig.json
+E:\Labs\NetCore\Authentication\TestIdentity\TestIdentity\bin\Debug\netcoreapp2.0\TestIdentity.runtimeconfig.dev.json
+E:\Labs\NetCore\Authentication\TestIdentity\TestIdentity\bin\Debug\netcoreapp2.0\TestIdentity.dll
+E:\Labs\NetCore\Authentication\TestIdentity\TestIdentity\obj\Debug\netcoreapp2.0\TestIdentity.csprojResolveAssemblyReference.cache
+E:\Labs\NetCore\Authentication\TestIdentity\TestIdentity\obj\Debug\netcoreapp2.0\TestIdentity.csproj.CoreCompileInputs.cache
+E:\Labs\NetCore\Authentication\TestIdentity\TestIdentity\obj\Debug\netcoreapp2.0\TestIdentity.AssemblyInfoInputs.cache
+E:\Labs\NetCore\Authentication\TestIdentity\TestIdentity\obj\Debug\netcoreapp2.0\TestIdentity.AssemblyInfo.cs
+E:\Labs\NetCore\Authentication\TestIdentity\TestIdentity\bin\Debug\netcoreapp2.0\TestIdentity.pdb
+E:\Labs\NetCore\Authentication\TestIdentity\TestIdentity\obj\Debug\netcoreapp2.0\TestIdentity.dll
+E:\Labs\NetCore\Authentication\TestIdentity\TestIdentity\obj\Debug\netcoreapp2.0\TestIdentity.pdb
